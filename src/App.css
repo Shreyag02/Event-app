@@ -1,0 +1,45 @@
+.my-btn{
+    cursor: pointer;
+}
+.my-img{
+    width:400px;
+    height: 450px;
+}
+.msg{
+    position: relative;
+    top: 50%;
+}
+.layout
+{
+    margin-top: 6rem;
+}
+
+.mt-8{
+    margin-top: 4rem !important;
+}
+.mb-8{
+    margin-bottom: 4rem;
+}
+.side-panel{
+    position: fixed !important;
+}
+@media only screen and (max-width: 768px) {
+    .layout
+    {
+        margin-top: 0 !important;
+        padding-bottom: 70px;
+    }
+    .side-panel{
+        position: relative !important;
+        margin: 0 auto;
+        order: 2;
+    }
+    .dasarea{
+        order: 1;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .my-img{
+        width: 300px;
+    }
+}
